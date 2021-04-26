@@ -1,0 +1,142 @@
+{
+  "name" : "IICS-CLI-2021-04-26T19:35:49Z",
+  "sourceOrgId" : "22kpDxtn7AEhmfmmp0eO6Q",
+  "sourceOrgName" : "Zerogram LLC",
+  "exportedObjects" : [ {
+    "objectGuid" : "6BazuJG9IWNfeulPZvcUSV",
+    "objectName" : "FF_Data_Win",
+    "objectType" : "Connection",
+    "path" : "/SYS",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "01811T0B00000000000A"
+      },
+      "objectRefs" : [ "1hX9mT7x8TwhgO97XUZNeP" ],
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : null,
+        "contentType" : "JSON",
+        "documentState" : "COMPLETE"
+      }
+    }
+  }, {
+    "objectGuid" : "1hX9mT7x8TwhgO97XUZNeP",
+    "objectName" : "WIN2K19",
+    "objectType" : "AgentGroup",
+    "path" : "/SYS",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "01811T25000000000002"
+      },
+      "objectRefs" : [ ],
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : null,
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    }
+  }, {
+    "objectGuid" : "lyoNFWg6lIGd2nqHxTdN8Y",
+    "objectName" : "tf_Taskflow",
+    "objectType" : "TASKFLOW",
+    "path" : "/Explore/Infa_Project_Github",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "cmkbclopz4KhPVE-gt-87441-2021-04-26T05:22:05.045Z::tf.xml"
+      },
+      "objectRefs" : [ "5yVC6QgJAajkk3xeVkajEb" ],
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : "",
+        "contentType" : "application/json; charset=utf-8",
+        "documentState" : "VALID"
+      }
+    }
+  }, {
+    "objectGuid" : "5yVC6QgJAajkk3xeVkajEb",
+    "objectName" : "s_Mapping",
+    "objectType" : "MTT",
+    "path" : "/Explore/Infa_Project_Github",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "01811T0Z00000000000C"
+      },
+      "objectRefs" : [ "6BazuJG9IWNfeulPZvcUSV", "1hX9mT7x8TwhgO97XUZNeP", "7SylNlvdbOqdjUn9Bi0dYQ" ],
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    }
+  }, {
+    "objectGuid" : "26zsoVNVTDNcRIWyh3YPm4",
+    "objectName" : "Infa_Project_Github",
+    "objectType" : "Project",
+    "path" : "/Explore",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : null,
+      "objectRefs" : [ ],
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "",
+        "contentType" : "Binary",
+        "documentState" : "COMPLETE"
+      }
+    }
+  }, {
+    "objectGuid" : "7SylNlvdbOqdjUn9Bi0dYQ",
+    "objectName" : "m_Mapping",
+    "objectType" : "DTEMPLATE",
+    "path" : "/Explore/Infa_Project_Github",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "01811T1700000000000A"
+      },
+      "objectRefs" : [ "6BazuJG9IWNfeulPZvcUSV" ],
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    }
+  } ]
+}
